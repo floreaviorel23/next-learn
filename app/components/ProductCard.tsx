@@ -1,14 +1,16 @@
 "use client";
 function ProductCard() {
   return (
-    <button
-      className="my-button"
-      onClick={() => {
-        console.log("hihihi");
-      }}
-    >
-      dada
-    </button>
+    <>
+      <h1>This is a client component</h1>
+      <button
+        onClick={() => {
+          console.log("button dada clicked");
+        }}
+      >
+        dada
+      </button>
+    </>
   );
 }
 

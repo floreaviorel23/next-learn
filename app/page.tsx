@@ -2,7 +2,7 @@ import ProductCard from "./components/ProductCard";
 function Home() {
   return (
     <>
-      <h1>asdasd</h1>
+      <h1>Hello. This is the main page</h1>
       <ProductCard></ProductCard>
     </>
   );
