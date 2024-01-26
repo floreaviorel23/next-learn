@@ -6,6 +6,7 @@ interface User {
 }
 
 async function Users() {
+  // Fetch 10 users with jsonplaceholder API
   let res = await fetch("https://jsonplaceholder.typicode.com/users");
   let users: User[] = await res.json();
 
@@ -22,6 +23,12 @@ async function Users() {
           </li>
         ))}
       </ul>
+
+      <div style={{ marginTop: 10 }}>
+        <a href="/">
+          <button>Go to Home Page</button>
+        </a>
+      </div>
     </>
   );
 }
